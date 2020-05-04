@@ -9,6 +9,7 @@ The repo consist of docker-compose setup to run LAMP stack based on [mattrayner/
 
 ## Add docker-compose as a system Service 
 * `cp docker-lamp.service /etc/systemd/system/docker-lamp.service`
+* `systemctl daemon-reload`
 * `systemctl start docker-lamp`
 * `systemctl enable docker-lamp` 
 
